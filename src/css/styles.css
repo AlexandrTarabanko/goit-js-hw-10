@@ -18,3 +18,35 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+.country-list{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.country-item{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.one-country-item{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.one-country-head{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.country-inf{
+  font-weight: bold;
+}
+
+/* .country-languages{
+word-spacing: 5px;
+} */
