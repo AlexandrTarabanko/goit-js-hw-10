@@ -11,7 +11,7 @@ const listRef = document.querySelector('.country-list');
 inputRef.addEventListener('input', debounce(onSearch, DEBOUNCE_DELAY));
 
 function onSearch() {
-  countryToSearch = inputRef.value.trim();
+  const countryToSearch = inputRef.value.trim();
 
   if (!countryToSearch) {
     listRef.innerHTML = '';
